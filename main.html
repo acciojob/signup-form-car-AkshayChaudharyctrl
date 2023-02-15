@@ -10,7 +10,46 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
-
+  <form method="post" target="_blank">
+	  <div>
+		  <label for="name">Name*</label>
+		  <input type="text" required id="name">
+	  </div>
+	  <div>
+		  <label for="email">Email*</label>
+		  <input type="email" required id="email">
+	  </div>
+	  <div>
+		  <label for="gender">Gender*</label>
+		  <input type="radio" required id="gender"
+			  name="gender">Male
+		  <input type="radio" required id="gender" name="gender">Female
+	  </div>
+	  <div>
+		  <label for="cars">Car Brands</label>
+		 <select id="cars">
+			 <option value="bmw">BMW</option>
+			 <option value="audi">Audi</option>
+			 <option value="mercedez">Mercedez</option>
+		 </select>
+		  <div>
+		  <label for="carage">Car Age*</label>
+		  <input type="number" required min="0" id="carage">
+	  </div>
+		  <div>
+		  <label for="dop">Date of Purchase(dop)*</label>
+		  <input type="date" required id="dop">
+	  </div>
+		  <div>
+		  <label for="password">Password*</label>
+		  <input type="password" required id="password">
+	  </div>
+		  <div>
+			   <label for="Submit">Submit button</label>
+		  <button type="submit" required id="Submit">
+	  </div>
+	  </div>
+  </form>
 </body>
 
 </html>
